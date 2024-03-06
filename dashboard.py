@@ -12,7 +12,7 @@ st.set_page_config(page_title="Beijing Air Quality")
 # data = pd.read_csv('airquality.csv')
 url='https://drive.google.com/file/d/1gB_mrLUSjZFFWK-R0iAIysa8i6nJYTNH/view?usp=sharing'
 url='https://drive.google.com/uc?id=' + url.split('/')[-2]
-# data = pd.read_csv(url)
+data = pd.read_csv(url)
 
 # Judul
 st.title('Beijing Air Quality Dashboard')
